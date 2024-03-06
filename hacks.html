@@ -77,6 +77,13 @@
   
   
           <li class="">
+            <a href="/hacks.html">HACKS</a>
+          </li>
+  
+
+  
+  
+          <li class="">
             <a href="/program.html">Program</a>
           </li>
   
@@ -152,24 +159,63 @@
 <section>
   
 <ul id="markdown-toc">
-  <li><a href="#1ndnts-documentation-and-tutorial-" id="markdown-toc-1ndnts-documentation-and-tutorial-"><del>1.NDNts documentation and tutorial </del></a></li>
-  <li><a href="#2-improving-ndn-workspace-application-with-openidconnect" id="markdown-toc-2-improving-ndn-workspace-application-with-openidconnect">2. Improving NDN Workspace Application with OpenIDConnect</a></li>
-  <li><a href="#-3-openapi-equivalent-over-ndn" id="markdown-toc--3-openapi-equivalent-over-ndn"><del> 3. OpenAPI Equivalent over NDN</del></a></li>
-  <li><a href="#4-ndn-workspace-development" id="markdown-toc-4-ndn-workspace-development">4. NDN Workspace Development</a></li>
-  <li><a href="#5-testbed-in-a-box" id="markdown-toc-5-testbed-in-a-box">5. Testbed-in-a-box</a></li>
-  <li><a href="#6-define-ndn-services-in-extensible-markup-language" id="markdown-toc-6-define-ndn-services-in-extensible-markup-language">6. Define NDN Services in Extensible Markup Language</a></li>
-  <li><a href="#7-containerize-all-the-things" id="markdown-toc-7-containerize-all-the-things">7. Containerize all the things!</a></li>
-  <li><a href="#8-opentelemetry-in-nfd" id="markdown-toc-8-opentelemetry-in-nfd"><del>8. OpenTelemetry in NFD</del></a></li>
+  <li><a href="#1-integration-of-mmwave-with-ndnccn-using-ns3-apps" id="markdown-toc-1-integration-of-mmwave-with-ndnccn-using-ns3-apps">1. Integration of mmWave with NDN/CCN using NS3 apps</a></li>
+  <li><a href="#2-chat-on-ndn-workspace" id="markdown-toc-2-chat-on-ndn-workspace">2. Chat on NDN Workspace</a></li>
+  <li><a href="#3-workspace-vscode-plugin" id="markdown-toc-3-workspace-vscode-plugin">3. Workspace VSCode Plugin</a></li>
+  <li><a href="#4-web-of-trust-model-for-ndn-workspace" id="markdown-toc-4-web-of-trust-model-for-ndn-workspace">4. Web of Trust Model for NDN Workspace</a></li>
+  <li><a href="#5-dockerizing-ndn" id="markdown-toc-5-dockerizing-ndn">5. Dockerizing NDN</a></li>
+  <li><a href="#6-sdn--ndn-with-mini-ndn" id="markdown-toc-6-sdn--ndn-with-mini-ndn">6. SDN + NDN with mini-NDN</a></li>
+  <li><a href="#7-ndn-traffic-trace-stateful-analysis--replay" id="markdown-toc-7-ndn-traffic-trace-stateful-analysis--replay">7. NDN Traffic Trace: stateful analysis &amp; replay</a></li>
+  <li><a href="#8-beastify-nfd" id="markdown-toc-8-beastify-nfd">8. Beastify NFD</a></li>
+  <li><a href="#9-dynamic-rule-inference-for-automating-ndn-certificate-chain-validation" id="markdown-toc-9-dynamic-rule-inference-for-automating-ndn-certificate-chain-validation">9. Dynamic Rule Inference for Automating NDN Certificate Chain Validation</a></li>
 </ul>
 
-<h2 id="1ndnts-documentation-and-tutorial-"><del>1.NDNts documentation and tutorial </del></h2>
+<h2 id="1-integration-of-mmwave-with-ndnccn-using-ns3-apps">1. Integration of mmWave with NDN/CCN using NS3 apps</h2>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Kundan Kanti Saha</li>
+</ul>
+
+<p><strong>Prefered Team Size:</strong></p>
+<ul>
+  <li>2-4</li>
+</ul>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>mmWave is one of the technologies anticipated with 6G. It extends the current bandwidth utilisation of EM spectrum for network communication.</li>
+  <li>By integrating ICN with mmWave, two of the most anticipated developments of 6G can be combined to meet the changing demands of internet usage.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ul>
+  <li>The tasks for the project are based on ndnSIM and NYUSIM apps of NS3 simulation tools.</li>
+  <li>The participants will have to combine ndnSIM and NYUSIM to create a hybrid app which can test any protocol/scheme based on ndnSIM to analyse its feasibility in 6G spectrum.</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>ndnSIM &amp; NYUSIM (NS3 based apps)</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Test the outcome of simulating any existing/new protocol or scheme in the hybrid app developed by combining NYUSIM and ndnSIM in NS3.</li>
+</ul>
+
+<h2 id="2-chat-on-ndn-workspace">2. Chat on NDN Workspace</h2>
 
 <p><strong>Project Lead:</strong></p>
 <ul>
   <li>Xinyu Ma</li>
 </ul>
 
-<!-- Project Members: TBD -->
 <p><strong>Prefered Team Size:</strong></p>
 <ul>
   <li>2-4</li>
@@ -177,77 +223,36 @@
 
 <p><strong>Targeted participant</strong></p>
 <ul>
-  <li>People new to NDN</li>
+  <li>People new to NDN development</li>
 </ul>
 
 <p><strong>How does your proposal benefit NDN?</strong></p>
 <ul>
-  <li>Make NDNts easier to use</li>
+  <li>Enable people using NDN Workspace to replace slack.</li>
 </ul>
 
 <p><strong>Briefly describe the tasks</strong></p>
 <ul>
-  <li>Document functions in a more detailed way</li>
-  <li>Write examples for frequently used classes</li>
-  <li>Write tutorials for basic applications</li>
+  <li>Implement chat functionalities in NDN workspace. Need a data model and mostly the front end.</li>
 </ul>
 
 <p><strong>Any specific tools or language</strong></p>
 <ul>
-  <li>TypeScript, TSDoc</li>
+  <li>TypeScript</li>
 </ul>
 
 <p><strong>Expected outcomes</strong></p>
 <ul>
-  <li>More detailed documentation at https://ndnts-docs.ndn.today/</li>
+  <li>A Chat page in NDN Workspace.</li>
 </ul>
 
-<h2 id="2-improving-ndn-workspace-application-with-openidconnect">2. Improving NDN Workspace Application with OpenIDConnect</h2>
-
-<p><strong>Project Lead:</strong></p>
-<ul>
-  <li>Tianyuan Yu</li>
-</ul>
-
-<!-- Project Members: TBD -->
-<p><strong>Prefered Team Size:</strong></p>
-<ul>
-  <li>2-4</li>
-</ul>
-
-<p><strong>Targeted participant</strong></p>
-<ul>
-  <li>People with previous NDN experience</li>
-</ul>
-
-<p><strong>How does your proposal benefit NDN?</strong></p>
-<ul>
-  <li>The NDN Workspace users currently obtain their application certificates via proving they own a NDN Testbed certificate. Since NDN Workspace is a web application, a more intuitive approach is to utilize users’ existing web identities to authenticate users. OpenIDConnect is a good fit in this case.</li>
-</ul>
-
-<p><strong>Briefly describe the tasks</strong></p>
-<ul>
-  <li>Implement the following process: the user asks for their web identity provider for authentication, obtain the token (or equivalent) from the provider, sends it to Workspace CA/server, then the CA/server validates the token, assigns name, and issue certificate.</li>
-</ul>
-
-<p><strong>Any specific tools or language</strong></p>
-<ul>
-  <li>TypeScript, Python</li>
-</ul>
-
-<p><strong>Expected outcomes</strong></p>
-<ul>
-  <li>A Github PR</li>
-</ul>
-
-<h2 id="-3-openapi-equivalent-over-ndn"><del> 3. OpenAPI Equivalent over NDN</del></h2>
+<h2 id="3-workspace-vscode-plugin">3. Workspace VSCode Plugin</h2>
 
 <p><strong>Project Lead:</strong></p>
 <ul>
   <li>Xinyu Ma</li>
 </ul>
 
-<!-- Project Members: TBD -->
 <p><strong>Prefered Team Size:</strong></p>
 <ul>
   <li>2-4</li>
@@ -255,37 +260,38 @@
 
 <p><strong>Targeted participant</strong></p>
 <ul>
-  <li>People with previous NDN experience</li>
+  <li>People with NDN code development experience</li>
 </ul>
 
 <p><strong>How does your proposal benefit NDN?</strong></p>
 <ul>
-  <li>Provide general API for application use.</li>
+  <li>Improve the usability of the NDN Workspace.</li>
 </ul>
 
 <p><strong>Briefly describe the tasks</strong></p>
 <ul>
-  <li>Explore the possibilities of implementing OpenAPI equivalent over NDN. It consists of two parts: the serialization with protobuf or JSON (with schema), and the RPC with SVS or modified RICE.</li>
+  <li>A VSCode plugin connecting to NDN Workspace, allowing editing files in the Workspace directly.</li>
+  <li>Need to implement the FileSystemProvider interface to let VSCode read Workspace files, and also watch VSCode document’s TextDocumentChangeEvent to publish local editor changes to the Workspace in real time.</li>
+  <li>We can start from hard coded connection. There are some code snippets to copy from.</li>
 </ul>
 
 <p><strong>Any specific tools or language</strong></p>
 <ul>
-  <li>TypeScript, Python</li>
+  <li>TypeScript</li>
 </ul>
 
 <p><strong>Expected outcomes</strong></p>
 <ul>
-  <li>Prototype of OpenAPI over NDN and future development plan.</li>
+  <li>A prototype of VSCode plugin connecting to NDN Workspace.</li>
 </ul>
 
-<h2 id="4-ndn-workspace-development">4. NDN Workspace Development</h2>
+<h2 id="4-web-of-trust-model-for-ndn-workspace">4. Web of Trust Model for NDN Workspace</h2>
 
 <p><strong>Project Lead:</strong></p>
 <ul>
-  <li>Xinyu Ma</li>
+  <li>Yekta Kocaoğullar</li>
 </ul>
 
-<!-- Project Members: TBD -->
 <p><strong>Prefered Team Size:</strong></p>
 <ul>
   <li>2-4</li>
@@ -293,37 +299,47 @@
 
 <p><strong>Targeted participant</strong></p>
 <ul>
-  <li>People with previous NDN experience</li>
+  <li>People with NDN code development experience</li>
 </ul>
 
 <p><strong>How does your proposal benefit NDN?</strong></p>
 <ul>
-  <li>Further development of a (basically) usable NDN web app.</li>
+  <li>This project is a continuation to ongoing efforts of adding functionalities to NDN Workspace, aiming to convert the current trust model of the application to Web of Trust.</li>
 </ul>
 
 <p><strong>Briefly describe the tasks</strong></p>
 <ul>
-  <li>Discuss and solve on GitHub issues of the NDN workspace app.</li>
+  <li>Fetch stranger certificate by keylocator</li>
+  <li>Request POR certificate issued by every other known (authenticated) user
+    <ul>
+      <li>If my cert store has N other users, send N interests for each</li>
+      <li>If not getting at least one POR, request an ID Token Data</li>
+      <li>If ID Token Data not valid or non exist, abort as data verification failure</li>
+    </ul>
+  </li>
+  <li>Cross-sign stranger public key as POR certificate</li>
+  <li>Putting POR certificate into cert store</li>
+  <li>Notify the POR subject a new POR is generated, let it fetch by name</li>
+  <li>POR subject serves all POR it received”</li>
 </ul>
 
 <p><strong>Any specific tools or language</strong></p>
 <ul>
-  <li>NDNts and SolidJS</li>
+  <li>NDNts library, TypeScript</li>
 </ul>
 
 <p><strong>Expected outcomes</strong></p>
 <ul>
-  <li>Discussions and PRs on GitHub</li>
+  <li>The NDN Workspace application should now use cross signed certificates for inter-trust zone communications.</li>
 </ul>
 
-<h2 id="5-testbed-in-a-box">5. Testbed-in-a-box</h2>
+<h2 id="5-dockerizing-ndn">5. Dockerizing NDN</h2>
 
 <p><strong>Project Lead:</strong></p>
 <ul>
-  <li>Varun Patil</li>
+  <li>Nidhi Panchal</li>
 </ul>
 
-<!-- Project Members: TBD -->
 <p><strong>Prefered Team Size:</strong></p>
 <ul>
   <li>2-4</li>
@@ -331,37 +347,39 @@
 
 <p><strong>Targeted participant</strong></p>
 <ul>
-  <li>People with previous NDN experience</li>
+  <li>People with NDN code development experience</li>
 </ul>
 
 <p><strong>How does your proposal benefit NDN?</strong></p>
 <ul>
-  <li>Make it easy to run an NDN network</li>
+  <li>Dockerization makes it easy to run NDN services, without needing to spend time installing dependencies etc.</li>
 </ul>
 
 <p><strong>Briefly describe the tasks</strong></p>
 <ul>
-  <li>Containerize NDN components and make it easily configurable</li>
+  <li>Learn Docker if no relevant experience</li>
+  <li>Create Dockerfile for each service</li>
+  <li>Create Docker compose that will start up sample service (i.e. NLSR + NFD)</li>
+  <li>Create image for build</li>
 </ul>
 
 <p><strong>Any specific tools or language</strong></p>
 <ul>
-  <li>Docker, python3 or another scripting language</li>
+  <li>Docker</li>
 </ul>
 
 <p><strong>Expected outcomes</strong></p>
 <ul>
-  <li>An NDN testbed, in a box</li>
+  <li>Starting up new NDN services will be efficient and easy. Modification for the environment is also made simpler, since only a few lines in the Dockerfiles need to be updated.</li>
 </ul>
 
-<h2 id="6-define-ndn-services-in-extensible-markup-language">6. Define NDN Services in Extensible Markup Language</h2>
+<h2 id="6-sdn--ndn-with-mini-ndn">6. SDN + NDN with mini-NDN</h2>
 
 <p><strong>Project Lead:</strong></p>
 <ul>
-  <li>Tianxing Ma</li>
+  <li>Ziyang Xing</li>
 </ul>
 
-<!-- Project Members: TBD -->
 <p><strong>Prefered Team Size:</strong></p>
 <ul>
   <li>2-4</li>
@@ -369,37 +387,36 @@
 
 <p><strong>Targeted participant</strong></p>
 <ul>
-  <li>People with previous NDN experience</li>
+  <li>People with NDN code development experience</li>
 </ul>
 
 <p><strong>How does your proposal benefit NDN?</strong></p>
 <ul>
-  <li>A quick solution to bulld NDN services</li>
+  <li>Expanding the application scope of NDN is beneficial for achieving more functions</li>
 </ul>
 
 <p><strong>Briefly describe the tasks</strong></p>
 <ul>
-  <li>Explore the possibility to define NDN service interfaces (input, output, and their data structures) in a standard format(xml), and explore the possibility to create a code generator to generate runnable code from these definitions. Also, think about its security. To begin with, the input and out would be defined as MAVlink messages in a xml file.</li>
+  <li>Expanding the application scope of NDN is beneficial for utilizing the controllers in SDN to operate NDN</li>
 </ul>
 
 <p><strong>Any specific tools or language</strong></p>
 <ul>
-  <li>C++, NDNCXX, MAVlink, XML, NAC-ABE</li>
+  <li>python, shell, java</li>
 </ul>
 
 <p><strong>Expected outcomes</strong></p>
 <ul>
-  <li>Some experience, maybe a standard to define the services</li>
+  <li>In the SDN environment, achieving producer to consumer distribution of content,</li>
 </ul>
 
-<h2 id="7-containerize-all-the-things">7. Containerize all the things!</h2>
+<h2 id="7-ndn-traffic-trace-stateful-analysis--replay">7. NDN Traffic Trace: stateful analysis &amp; replay</h2>
 
 <p><strong>Project Lead:</strong></p>
 <ul>
-  <li>Davide Pesavento</li>
+  <li>Junxiao Shi</li>
 </ul>
 
-<!-- Project Members: TBD -->
 <p><strong>Prefered Team Size:</strong></p>
 <ul>
   <li>2-4</li>
@@ -407,37 +424,37 @@
 
 <p><strong>Targeted participant</strong></p>
 <ul>
-  <li>People with previous NDN experience</li>
+  <li>People with NDN code development experience</li>
 </ul>
 
 <p><strong>How does your proposal benefit NDN?</strong></p>
 <ul>
-  <li>Make the NDN stack easier to run on your machine and/or to deploy on a network of nodes.</li>
+  <li>gain insights into NDN network usage; more faithfully replay traffic, making the trace useful</li>
 </ul>
 
 <p><strong>Briefly describe the tasks</strong></p>
 <ul>
-  <li>Write a Dockerfile for NFD. Write a Dockerfile for a sample application (e.g., ndnpingserver). Write GitHub Actions workflows to build and publish the container images. Make sure other NDN applications can transparently use a containerized NFD. Write a sample docker-compose.yml that showcases how to integrate NFD with other services/applications.</li>
+  <li>Write a program to perform Interest-Data matching from the packet traces and glean RTT information.</li>
+  <li>Enhance the NDN Trace Replay tool - support all Interest/Data fields available in the .ndjson trace.</li>
 </ul>
 
 <p><strong>Any specific tools or language</strong></p>
 <ul>
-  <li>docker, docker-compose, github actions</li>
+  <li>NDNgo/python-ndn; ndn-cxx + ndnSIM</li>
 </ul>
 
 <p><strong>Expected outcomes</strong></p>
 <ul>
-  <li>A set of Dockerfiles and CI pipelines to automatically build and publish container images of the core NDN software.</li>
+  <li>RTT report from traffic traces; enhanced NDN Trace Replay tool</li>
 </ul>
 
-<h2 id="8-opentelemetry-in-nfd"><del>8. OpenTelemetry in NFD</del></h2>
+<h2 id="8-beastify-nfd">8. Beastify NFD</h2>
 
 <p><strong>Project Lead:</strong></p>
 <ul>
-  <li>Davide Pesavento</li>
+  <li>Junxiao Shi</li>
 </ul>
 
-<!-- Project Members: TBD -->
 <p><strong>Prefered Team Size:</strong></p>
 <ul>
   <li>2-4</li>
@@ -445,28 +462,93 @@
 
 <p><strong>Targeted participant</strong></p>
 <ul>
-  <li>People with previous NDN experience</li>
+  <li>People with NDN code development experience</li>
 </ul>
 
 <p><strong>How does your proposal benefit NDN?</strong></p>
 <ul>
-  <li>Improve the observability of NFD via OpenTelemetry (OTel)</li>
+  <li>cleanup NFD codebase</li>
 </ul>
 
 <p><strong>Briefly describe the tasks</strong></p>
 <ul>
-  <li>Instrument NFD to export a few basic but useful traces and metrics in OTel-compliant format</li>
+  <li>NFD Feature #5207 autoconfig: allow NDN-FCH service over HTTPS</li>
+  <li>NFD Task #4972 migrate WebSocket face to Boost.Beast</li>
 </ul>
 
 <p><strong>Any specific tools or language</strong></p>
 <ul>
-  <li>C++, OpenTelemetry</li>
+  <li>C++ &amp; Boost.Beast</li>
 </ul>
 
 <p><strong>Expected outcomes</strong></p>
 <ul>
-  <li>Upstreamable patches that implement basic OTel telemetry features in NFD. Demo a simple but functional setup that shows telemetry being collected from NFD and displayed in a web UI.</li>
+  <li>changes submitted to Gerrit</li>
 </ul>
+
+<h2 id="9-dynamic-rule-inference-for-automating-ndn-certificate-chain-validation">9. Dynamic Rule Inference for Automating NDN Certificate Chain Validation</h2>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Adriana Viriato Ribeiro</li>
+</ul>
+
+<p><strong>Prefered Team Size:</strong></p>
+<ul>
+  <li>2-4</li>
+</ul>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Facilitates NDN’s remote secure bootstrapping, by automating the trust schema validation rules generation through dynamic rule inference.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ul>
+  <li>Integrate certificate issuing and chain with the trust schema, in order to synchronize both tasks to avoid errors.</li>
+  <li>Also, optimize trust schema validation rules to allow fast certificate chain verification.</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>The participants are encouraged to use C++, ndn-cxx and NDNCERT to assemble their solutions.</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Provide an easy to use tool that integrates certificate generation and signing with the trust schema</li>
+  <li>Optimize remote secure bootstrapping performance</li>
+  <li>Design a tool or set of tools that mitigate human errors in the trust schema design, so that it conforms to the current NDN certificate chain.</li>
+</ul>
+
+<!--
+## 1.
+
+**Project Lead:**
+-
+
+**Prefered Team Size:**
+- 2-4
+
+**Targeted participant**
+-
+
+**How does your proposal benefit NDN?**
+-
+
+**Briefly describe the tasks**
+-
+
+**Any specific tools or language**
+-
+
+**Expected outcomes**
+- -->
 
 </section>
 
